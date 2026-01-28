@@ -1,0 +1,24 @@
+{
+  "name": "project-architects-server",
+  "version": "1.0.0",
+  "description": "Express backend for Project Architects",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "echo 'No build step required for Node.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
