@@ -6,7 +6,7 @@
 
 ## What We're Building & Why
 
-[2-3 sentences describing the problem you're solving and the value it delivers]
+[2-3 sentences describing the problem you're solving and the value it delivers]<br>
 Project management addresses the challenge of delivering successful outcomes by providing a structured framework for planning, executing, and monitoring complex initiatives. It ensures that goals are met within defined constraints of scope, time, and budget, while also managing risks and optimizing resource allocation.
 
 **Success looks like:** [Increased efficiency/productivity, Improved quality/value, Enhanced team/stakeholder alignment ]
