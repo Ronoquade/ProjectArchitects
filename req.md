@@ -1,6 +1,6 @@
 # [Project Management] - Requirements
 
-**Last Updated:** [Jan 28, 2026] | **Owner:** [Product Owner Name]
+**Last Updated:** [Jan 28, 2026] | **Owner:** [Dr. Im]
 
 ---
 
@@ -39,7 +39,8 @@ Project management addresses the challenge of delivering successful outcomes by 
 
 #### [Story Title]
 **As a** [role], **I want to** [goal] **so that** [benefit]
-
+As a project manager, I want to create a new task, so that I can delegate work to my team.
+As a team member, I want to log my work hours on tasks, so that I can track for my time accurately.
 **Acceptance Criteria:**
 - [ ] [Criterion]
 - [ ] [Criterion]
@@ -76,10 +77,10 @@ Project management addresses the challenge of delivering successful outcomes by 
 - [Standard, e.g., "WCAG 2.1 AA compliant"]
 
 **Browser/Device Support:**
-- [Requirements, e.g., "Chrome, Safari, Firefox (latest 2 versions), iOS Safari, Chrome Mobile"]
+- [Google Chrome]
 
 **Compliance:**
-- [If applicable, e.g., "HIPAA compliant", "GDPR compliant"]
+- [NISA Compliance]
 
 ---
 
