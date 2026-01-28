@@ -1,6 +1,6 @@
 # [Project Name] - Requirements
 
-**Last Updated:** [Date] | **Owner:** [Product Owner Name]
+**Last Updated:** [Jan 28, 2026] | **Owner:** [Product Owner Name]
 
 ---
 
@@ -15,8 +15,8 @@
 ## Who We're Building For
 
 **Primary Users:**
-- **[User Type 1]:** [One sentence describing their main need]
-- **[User Type 2]:** [One sentence describing their main need]
+- **[Managers]:** [Managers need management apps to centralize tasks, automate workflows, boost team collaboration]
+- **[Employees]:** [Employees need management apps to improve collaboration, efficient task management]
 
 ---
 
