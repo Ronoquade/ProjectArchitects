@@ -9,6 +9,8 @@ import { auth } from '../config/firebase';
 
 const AuthContext = createContext({});
 
+// Hook to use auth context
+// eslint-disable-next-line react-refresh/only-export-components
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {

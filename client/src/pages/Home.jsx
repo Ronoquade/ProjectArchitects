@@ -9,18 +9,20 @@ function Home() {
   const { user, logout } = useAuth();
   const [serverStatus, setServerStatus] = useState('checking...');
 
-  useEffect(() => {
-    checkServerHealth();
-  }, []);
-
   const checkServerHealth = async () => {
     try {
       const response = await healthCheck();
       setServerStatus(response.status === 'ok' ? '✓ Connected' : '✗ Error');
-    } catch (error) {
+    } catch {
       setServerStatus('✗ Disconnected');
     }
   };
+
+  useEffect(() => {
+    // Check server health on component mount
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    checkServerHealth();
+  }, []);
 
   return (
     <div className="home">

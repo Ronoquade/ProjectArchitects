@@ -11,9 +11,12 @@ export const verifyToken = async (req, res, next) => {
       return res.status(401).json({ error: 'No token provided' });
     }
 
-    if (!auth) {
-      // If Firebase is not initialized, skip authentication for development
-      console.warn('Firebase not initialized, skipping authentication');
+    if (!db) {
+      // If Firebase is not initialized, skip authentication for development only
+      if (process.env.NODE_ENV === 'production') {
+        return res.status(503).json({ error: 'Authentication service unavailable' });
+      }
+      console.warn('Firebase not initialized, skipping authentication (development only)');
       req.user = { uid: 'dev-user' };
       return next();
     }
