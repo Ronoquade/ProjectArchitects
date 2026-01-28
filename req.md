@@ -39,7 +39,7 @@ Project management addresses the challenge of delivering successful outcomes by 
 
 #### [Story Title]
 **As a** [role], **I want to** [goal] **so that** [benefit] <br>
-As a project manager, I want to create a new task, so that I can delegate work to my team.
+As a project manager, I want to create a new task, so that I can delegate work to my team.<br>
 As a team member, I want to log my work hours on tasks, so that I can track for my time accurately.<br>
 **Acceptance Criteria:**
 - [ ] [Criterion]
