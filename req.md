@@ -116,7 +116,7 @@ A story is complete when:
 
 ## Where to Find More
 
-- **Designs:** [https://dribbble.com/tags/project-manager](Dribble)
+- **Designs:** [Dribble](https://dribbble.com/tags/project-manager)
 - **Technical Specs:** [To be added]
-- **Project Board:** [https://trello.com/home](Trello)
+- **Project Board:** [Trello](https://trello.com/home)
 - **Slack Channel:** [To be added]
