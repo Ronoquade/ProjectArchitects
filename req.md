@@ -1,23 +1,22 @@
 # [Project Management] - Requirements
 
-**Last Updated:** [Jan 28, 2026] | **Owner:** [Dr. Im]
+**Last Updated:** [Jan 31, 2026] | **Owner:** [Ronoquade Lawrence, Hieu Do]
 
 ---
 
 ## What We're Building & Why
 
-[2-3 sentences describing the problem you're solving and the value it delivers]<br>
-Project management addresses the challenge of delivering successful outcomes by providing a structured framework for planning, executing, and monitoring complex initiatives. It ensures that goals are met within defined constraints of scope, time, and budget, while also managing risks and optimizing resource allocation.
+[A modern, intuitive project management web application designed to help teams organize tasks, track progress, and collaborate efficiently. The goal is to reduce friction in planning and execution by providing a clean, responsive interface with essential workflow tools. This project delivers clarity, accountability, and improved productivity for teams of any size.]
 
-**Success looks like:** [Increased efficiency/productivity, Improved quality/value, Enhanced team/stakeholder alignment ]
+**Success looks like:** [Increased efficiency/productivity, Improved quality/value, Enhanced team/stakeholder alignment]
 
 ---
 
 ## Who We're Building For
 
 **Primary Users:**
-- **[Managers]:** [Managers need management apps to centralize tasks, automate workflows, boost team collaboration]
-- **[Employees]:** [Employees need management apps to improve collaboration, efficient task management]
+- **[Managers]:** [Need a clear overview of project timelines, responsibilities, and progress.]
+- **[Team Members]:** [Need a simple way to view tasks, update status, and collaborate without complexity.]
 
 ---
 
@@ -25,62 +24,59 @@ Project management addresses the challenge of delivering successful outcomes by 
 
 ### 🎯 Must Have (MVP)
 
-#### [Story Title]
-**As a** [role], **I want to** [goal] **so that** [benefit]
-
+#### [Create and Manage Tasks]
+As a team member, I want to create and update tasks so that I can track my work efficiently.
 **Acceptance Criteria:**
-- [ ] [Specific, testable criterion]
-- [ ] [Specific, testable criterion]
-- [ ] [Specific, testable criterion]
+- [ ] [Users can create tasks with title, description, due date, and assignee]
+- [ ] [Users can update task status (To Do → In Progress → Done)]
+- [ ] [Tasks persist across sessions and devices]
 
-**Notes:** [Any important context, dependencies, or technical considerations]
+**Notes:** [Tasks stored in database; real-time updates optional for MVP.]
 
 ---
 
-#### [Story Title]
-**As a** [role], **I want to** [goal] **so that** [benefit] <br>
-As a project manager, I want to create a new task, so that I can delegate work to my team.<br>
-As a team member, I want to log my work hours on tasks, so that I can track for my time accurately.<br>
+#### [Project Dashboard]
+As a project manager, I want to view all tasks in a project so that I can understand progress at a glance.
 **Acceptance Criteria:**
-- [ ] [Criterion]
-- [ ] [Criterion]
+- [ ] [Dashboard displays tasks grouped by status]
+- [ ] [Ability to filter by assignee, due date, or priority]
 
 ---
 
 ### 💡 Should Have (Phase 2)
 
-#### [Story Title]
-**As a** [role], **I want to** [goal] **so that** [benefit]
+#### [Team Collaboration]
+As a team member, I want to comment on tasks so that I can communicate context without switching tools.
 
 **Acceptance Criteria:**
-- [ ] [Criterion]
-- [ ] [Criterion]
-
+- [ ] [Users can add comments to tasks]
+- [ ] [Comments show timestamp and author]
+- [ ] [Users receive in-app notifications for mentions]
 ---
 
 ### 🌟 Nice to Have (Future)
 
 #### [Story Title]
 **As a** [role], **I want to** [goal] **so that** [benefit]
-
+- [ ] [To be added]
 ---
 
 ## Non-Negotiables
 
 **Performance:**
-- [Key metric, e.g., "Pages load in < 2 seconds"]
+- [Pages load in under 2 seconds on standard broadband]
 
 **Security:**
-- [Critical requirement, e.g., "All data encrypted at rest"]
+- [All data encrypted at rest and in transit]
 
 **Accessibility:**
-- [Standard, e.g., "WCAG 2.1 AA compliant"]
+- [WCAG 2.1 AA compliant]
 
 **Browser/Device Support:**
 - [Google Chrome]
 
 **Compliance:**
-- [NISA Compliance]
+- [GDPR compliant]
 
 ---
 
@@ -92,35 +88,35 @@ A story is complete when:
 - [ ] Tests written and passing
 - [ ] Deployed to staging
 - [ ] Product owner accepts
-- [ ] [Add team-specific criteria]
+- [ ] No critical bugs open
 
 ---
 
 ## Technical Constraints
 
-- [Technology stack or platform requirements]
-- [Integration requirements with existing systems]
-- [Known limitations we need to work within]
+- [Built with React + Node.js]
+- [Must integrate with existing authentication provider (Firebase)]
+- [Must support responsive design for desktop]
 
 ---
 
 ## Open Questions & Decisions Needed
 
-- [ ] **[Question]** - Owner: [Name] - Due: [Date]
+- [ ] **[Do we need role-based permissions beyond admin/user?]** - Owner: [Hieu Do] - Due: [Feb 3rd]
 - [ ] **[Question]** - Owner: [Name] - Due: [Date]
 
 ---
 
 ## Out of Scope (For Now)
 
-- [Feature or capability explicitly not included in current scope]
-- [Another excluded item]
+- [Advanced reporting and analytics]
+- [Mobile app (native)]
 
 ---
 
 ## Where to Find More
 
-- **Designs:** [Link to Figma/mockups]
-- **Technical Specs:** [Link to architecture docs]
+- **Designs:** [https://dribbble.com/tags/project-manager(Dribble)]
+- **Technical Specs:** [To be added]
 - **Project Board:** [Link to Jira/GitHub/etc.]
-- **Slack Channel:** [Channel name]
+- **Slack Channel:** [To be added]
